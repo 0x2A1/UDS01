@@ -44,6 +44,7 @@ typedef struct
     HAL_GPIO_S io;           // 硬件io号
 } LED_S;
 //---------------------------------本文件内变量声明--------------------------------
+extern LED_S led1;
 //---------------------------------本文件内函数声明--------------------------------
 void LED_Init(LED_S *pLed, float freq_hz, float duty_cycle);
 void LED_SetMode(LED_S *pLed, LED_MODE_E mode);

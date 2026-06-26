@@ -79,4 +79,5 @@ idf_component_register(
 	${ALL_INC}
 	REQUIRES
 	esp_driver_gpio
+	esp_driver_gptimer
 )
